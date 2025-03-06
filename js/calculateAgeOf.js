@@ -15,3 +15,14 @@ const calculateAgeOf = (birthDate) => {
 
   return age;
 };
+
+const birthDate = '2002-10-31'; // Replace this with the person's birthdate
+const age = calculateAgeOf(birthDate);
+
+console.log(age);
+
+// Get the element where age will be displayed
+const elemAge = document.querySelector('.ageOfPerson');
+
+// Set the element's text content
+elemAge.textContent = age;

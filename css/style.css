@@ -1,11 +1,18 @@
-/* Diagnostic Styling */
+import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
 * {
-  outline: 2px dotted gray;
-} 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-
-/* temp background color */
 body {
-    background: peachpuff;
-  }
-  
+  font-family: 'Orbitron', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #0d0d0d, #1a1a2e);
+  padding: 2rem;
+  overflow: hidden;
+}
